@@ -1,0 +1,139 @@
+*{
+    margin: 0 auto;
+    padding:0;
+}
+
+body{
+   background-color: rgba(0, 0, 0, 0.815); 
+   color:whitesmoke;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.titulo{   
+   width: 98%;
+    position: fixed;
+    left: 0px;  
+    padding-left: 20px; 
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.691);
+    color: cornsilk;
+    border-bottom-left-radius: 15px;
+       border-bottom-right-radius: 15px;
+    text-align: center;
+    line-height: 60px;
+    transition: 1s;
+    animation-delay: .9s;
+    z-index: 9;   
+   }
+
+   .titulo:hover{
+       background-color: crimson;
+       font-size: 22px;
+       transition: .5s;
+       border-bottom-left-radius: 15px;
+       border-bottom-right-radius: 15px;
+   }
+
+   img{
+       position: fixed;
+       padding: 5px;      
+       width: 60px;
+       height: 60px;
+       border-radius: 10px;       z-index: 11;
+   }
+
+   img:hover{
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin: 0,auto;
+
+   }
+
+   .parrafo{   
+       padding: 5px;   
+       line-height: 50px;
+       margin:80px ;
+       font-size: 20px;
+       z-index: 1;
+       border: 1px solid whitesmoke;
+       border-radius: 10px;
+       transition: .3s;
+       transition-delay: .3s;
+   }
+
+   .parrafo:hover{
+       background-color: whitesmoke;
+       color:black;
+       font-size: 25px;
+       border-color:1px solid black;
+       transition-delay: .3s;
+   }
+
+   .titulo2{
+       position: relative;
+       margin-top: 0px;
+       margin-bottom: 20px;
+   }
+
+   .contenido li{
+       position: relative;       
+       width: 40%;
+       text-decoration: none;
+       margin-bottom: 5px;
+       font-size: 12px;
+       text-align:center;
+       line-height:50px;
+       border:.5px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        transition-delay: .3s;
+        transition:.3s;
+        z-index: 5;
+    }
+
+    li:hover{
+        text-decoration: none;
+        width: 50%;
+      color:rgba(0, 0, 0, 0.904);
+      background-color: rgba(255, 248, 220, 0.89);
+      font-weight:bold;
+      font-size: large;
+      transition:.3s;
+      transition-delay: .3s;
+    }
+
+
+     .pie{
+         margin-top: 20px;
+       line-height: 80px;
+       background-color: black;
+       
+       z-index: 100;
+    }
+
+    .btn1{
+        margin-top: 50px;
+        background-color: black;
+        color: cornsilk;
+        border-radius: 5px; 
+        padding: 5px;
+        transition:.5s;
+    }
+
+    .btn1:hover{
+        background-color: rgba(255, 254, 254, 0.918);
+        color: rgba(0, 0, 0, 0.917);
+        font-weight: bold;
+        box-shadow: rgb(70, 3, 255);
+        padding: 10px;
+    }
